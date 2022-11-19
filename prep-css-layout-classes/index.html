@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+max-width: 992px;
+margin: auto;
+    }
+
+    .row {
+width: 100%;
+display: flex;
+    }
+
+    .column {
+flex-basis: 33.3%;
+padding-left: 8px;
+padding-right: 8px;
+    }
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <div class="container">
+    <h1>The Spider-Man</h1>
+    <div class="row">
+      <div class="column">
+        <img src="http://cdn.shopify.com/s/files/1/0598/2925/products/i5XKDHv.jpg?v=1607719001">
+        <h2>
+          Spider-Man
+        </h2>
+        <p>
+          Spider-Man centers on student Peter Parker (Tobey Maguire) who, after being bitten by a genetically-altered spider,
+          gains superhuman strength and the spider-like ability to cling to any surface. He vows to use his abilities to fight
+          crime, coming to understand the words of his beloved Uncle Ben: With great power comes great responsibility.
+        </p>
+      </div>
+
+      <div class="column">
+        <img src="https://imgc.allpostersimages.com/img/posters/spider-man-2_u-L-F4S5Z90.jpg?artHeight=550&artPerspective=n&artWidth=550">
+        <h2>
+          Spider-Man 2
+        </h2>
+        <p>
+          When a failed nuclear fusion experiment results in an explosion that kills his wife, Dr. Otto Octavius (Alfred Molina)
+          is transformed into Dr. Octopus, a cyborg with deadly metal tentacles. Doc Ock blames Spider-Man (Tobey Maguire) for the
+          accident and seeks revenge. Meanwhile, Spidey's alter ego, Peter Parker, faces fading powers and self-doubt.
+          Complicating matters are his best friend's (James Franco) hatred for Spider-Man and his true love's (Kirsten Dunst)
+          sudden engagement to another man.
+        </p>
+      </div>
+
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BYTk3MDljOWQtNGI2My00OTEzLTlhYjQtOTQ4ODM2MzUwY2IwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg">
+        <h2>
+          Spider-Man 3
+        </h2>
+        <p>
+          Peter Parker (Tobey Maguire) and M.J. (Kirsten Dunst) seem to finally be on the right track in their complicated
+          relationship, but trouble looms for the superhero and his lover. Peter's Spider-Man suit turns black and takes control
+          of him, not only giving Peter enhanced power but also bringing out the dark side of his personality. Peter must overcome
+          the suit's influence as two supervillains, Sandman and Venom, rise up to destroy him and all those he holds dear.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
